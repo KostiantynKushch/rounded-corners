@@ -1,0 +1,44 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.rc-section {
+  min-height: 100vh;
+  background-color: antiquewhite;
+  border-bottom: 1px solid #000;
+  padding: 15px;
+}
+
+.rc-title {
+  text-align: center;
+}
+
+.rc-blocks {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.rc-block {
+  width: 300px;
+  height: 400px;
+  background-color: brown;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.rc-block--1 {
+  width: 600px;
+}
+
+.rc-block--4 {
+  width: 150px;
+}
